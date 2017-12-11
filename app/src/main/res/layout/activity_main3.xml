@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.lenovo.ai.Main3Activity">
+
+    <SearchView
+        android:id="@+id/Search by Name"
+        android:layout_width="203dp"
+        android:layout_height="50dp"
+        tools:layout_editor_absoluteX="165dp"
+        tools:layout_editor_absoluteY="15dp" />
+
+    <EditText
+        android:id="@+id/editText20"
+        android:layout_width="153dp"
+        android:layout_height="49dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Search by name."
+        tools:layout_editor_absoluteX="10dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <EditText
+        android:id="@+id/editText21"
+        android:layout_width="155dp"
+        android:layout_height="49dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Search by Branch"
+        tools:layout_editor_absoluteX="10dp"
+        tools:layout_editor_absoluteY="65dp" />
+
+    <EditText
+        android:id="@+id/editText22"
+        android:layout_width="154dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Search by Year"
+        tools:layout_editor_absoluteX="11dp"
+        tools:layout_editor_absoluteY="111dp" />
+
+    <EditText
+        android:id="@+id/editText23"
+        android:layout_width="155dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Search by Hostel"
+        tools:layout_editor_absoluteX="10dp"
+        tools:layout_editor_absoluteY="157dp" />
+
+    <SearchView
+        android:layout_width="203dp"
+        android:layout_height="45dp"
+        tools:layout_editor_absoluteX="165dp"
+        tools:layout_editor_absoluteY="67dp" />
+
+    <SearchView
+        android:layout_width="203dp"
+        android:layout_height="43dp"
+        tools:layout_editor_absoluteX="165dp"
+        tools:layout_editor_absoluteY="112dp" />
+
+    <SearchView
+        android:layout_width="203dp"
+        android:layout_height="45dp"
+        tools:layout_editor_absoluteX="165dp"
+        tools:layout_editor_absoluteY="155dp" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SEARCH"
+        tools:layout_editor_absoluteX="132dp"
+        tools:layout_editor_absoluteY="247dp" />
+
+    <EditText
+        android:id="@+id/editText24"
+        android:layout_width="296dp"
+        android:layout_height="65dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="For any assistance, contact :"
+        tools:layout_editor_absoluteX="34dp"
+        tools:layout_editor_absoluteY="329dp" />
+
+    <EditText
+        android:id="@+id/editText25"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="phone"
+        android:text="+911202808228"
+        tools:layout_editor_absoluteX="68dp"
+        tools:layout_editor_absoluteY="394dp" />
+</android.support.constraint.ConstraintLayout>
